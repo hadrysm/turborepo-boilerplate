@@ -31,12 +31,14 @@ module.exports = {
     // react
     'no-console': 2,
     'react/react-in-jsx-scope': 0,
+    'import/prefer-default-export': 0,
     'react/function-component-definition': [
       2,
       {
         namedComponents: 'arrow-function',
       },
     ],
+    'react/jsx-props-no-spreading': 'off',
 
     // next
     '@next/next/no-html-link-for-pages': 'off',

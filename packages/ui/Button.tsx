@@ -1,5 +1,1 @@
-import * as React from 'react';
-export const Button = () => {
-  console.log('siema');
-  return <button>Boop</button>;
-};
+export const Button = () => <button type="button">Boopdsds</button>;
