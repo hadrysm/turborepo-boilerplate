@@ -5,12 +5,12 @@
   "types": "./index.tsx",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint *.ts*"
+    "eslint:format": "eslint . --ext ts --ext tsx --ext js"
   },
   "devDependencies": {
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
-    "eslint": "^7.32.0",
+    "eslint": "8.24.0",
     "eslint-config-custom": "*",
     "react": "^18.2.0",
     "tsconfig": "*",
