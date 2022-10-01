@@ -14,6 +14,7 @@
   },
   "devDependencies": {
     "eslint-config-custom": "*",
+    "tailwind-config": "*",
     "prettier": "latest",
     "turbo": "latest"
   },

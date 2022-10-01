@@ -1,1 +1,5 @@
-export const Button = () => <button type="button">Boopdsds</button>;
+export const Button = () => (
+  <button className="bg-elo" type="button">
+    Boopdsds
+  </button>
+);
