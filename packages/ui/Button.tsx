@@ -1,5 +1,5 @@
 export const Button = () => (
-  <button className="bg-purple-400 px-4 py-6" type="button">
-    Click me
+  <button className="rounded-lg bg-purple-700 px-6 py-4 text-white " type="button">
+    Click me!
   </button>
 );

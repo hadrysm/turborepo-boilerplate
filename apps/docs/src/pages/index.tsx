@@ -2,7 +2,7 @@ import { Button } from 'ui';
 
 const Docs = () => (
   <div>
-    <h1>Docs</h1>
+    <h1 className="mb-6">Docs</h1>
     <Button />
   </div>
 );

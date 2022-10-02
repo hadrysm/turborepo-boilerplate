@@ -10,17 +10,32 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "eslint:format": "turbo run eslint:format"
+    "prettier:format": "prettier --write .",
+    "prettier:check": "prettier --check \"**/*.{ts,tsx,json}\"",
+    "eslint:format": "turbo run eslint:format",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "eslint-config-custom": "*",
-    "tailwind-config": "*",
+    "husky": "8.0.1",
+    "lint-staged": "13.0.3",
     "prettier": "latest",
+    "tailwind-config": "*",
     "turbo": "latest"
   },
   "engines": {
     "node": ">=14.0.0"
   },
   "dependencies": {},
-  "packageManager": "yarn@1.22.19"
+  "packageManager": "yarn@1.22.19",
+  "lint-staged": {
+    "apps/**/*": [
+      "yarn prettier:format",
+      "eslint --fix"
+    ],
+    "packages/ui/**/*": [
+      "yarn prettier:format",
+      "eslint --fix"
+    ]
+  }
 }
