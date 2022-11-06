@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "echo 'test - web'",
+    "test": "jest --coverage",
     "eslint:format": "eslint . --ext ts --ext tsx --ext js"
   },
   "dependencies": {
@@ -23,6 +23,7 @@
     "eslint-config-custom": "*",
     "next-transpile-modules": "10.0.0",
     "tailwind-config": "*",
+    "jest-config": "*",
     "tsconfig": "*",
     "typescript": "^4.5.3"
   }

@@ -4,15 +4,17 @@ module.exports = {
     node: true,
   },
   extends: [
-    'custom',
-    'next',
+    'next/core-web-vitals',
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
     'airbnb',
     'airbnb-typescript',
-    'plugin:import/recommended',
+    'plugin:import/errors',
+    'plugin:import/warnings',
     'plugin:import/typescript',
     'prettier',
   ],
-  plugins: ['@typescript-eslint', 'import'],
+  plugins: ['import', '@typescript-eslint'],
   settings: {
     next: {
       rootDir: ['apps/*/', 'packages/*/'],
@@ -40,9 +42,7 @@ module.exports = {
       },
     ],
     'react/jsx-props-no-spreading': 0,
-
-    // next
-    '@next/next/no-html-link-for-pages': 0,
+    '@next/next/no-html-link-for-pages': ['error', './src/pages/'],
   },
   overrides: [
     {

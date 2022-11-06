@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "eslint:format": "eslint . --ext ts --ext tsx --ext js",
-    "test": "echo 'test - ui'"
+    "test": "jest --coverage"
   },
   "devDependencies": {
     "@types/react": "^18.0.25",
@@ -15,6 +15,7 @@
     "eslint-config-custom": "*",
     "react": "^18.2.0",
     "tailwind-config": "*",
+    "jest-config": "*",
     "tsconfig": "*",
     "typescript": "^4.5.2"
   }
