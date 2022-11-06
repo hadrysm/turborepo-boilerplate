@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "test": "echo 'test - web'",
     "eslint:format": "eslint . --ext ts --ext tsx --ext js"
   },
   "dependencies": {

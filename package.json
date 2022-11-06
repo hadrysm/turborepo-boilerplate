@@ -9,6 +9,7 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
+    "test": "turbo run test",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "prettier:format": "prettier --write .",
     "prettier:check": "prettier --check \"**/*.{ts,tsx,json}\"",

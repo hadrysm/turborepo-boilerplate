@@ -5,7 +5,8 @@
   "types": "./index.tsx",
   "license": "MIT",
   "scripts": {
-    "eslint:format": "eslint . --ext ts --ext tsx --ext js"
+    "eslint:format": "eslint . --ext ts --ext tsx --ext js",
+    "test": "echo 'test - ui'"
   },
   "devDependencies": {
     "@types/react": "^18.0.25",
