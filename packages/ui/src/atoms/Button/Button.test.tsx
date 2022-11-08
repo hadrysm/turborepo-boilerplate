@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen } from 'jest-config';
 import { Button } from './Button';
 
 describe('Button', () => {
