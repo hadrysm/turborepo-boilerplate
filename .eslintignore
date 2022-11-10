@@ -1,0 +1,11 @@
+**/node_modules/*
+**/out/*
+**/.next/*
+coverage
+**/*.js
+**/*.json
+public
+styles
+.next
+dist
+.turbo
