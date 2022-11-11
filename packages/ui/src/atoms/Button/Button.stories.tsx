@@ -6,6 +6,6 @@ export default {
   component: Button,
 } as ComponentMeta<typeof Button>;
 
-const Template: ComponentStory<typeof Button> = () => <Button />;
+const Template: ComponentStory<typeof Button> = () => <Button>Click me</Button>;
 
 export const Default = Template.bind({});
