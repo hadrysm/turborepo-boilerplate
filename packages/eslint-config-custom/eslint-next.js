@@ -34,6 +34,8 @@ module.exports = {
     'no-console': 2,
     'react/react-in-jsx-scope': 0,
     'import/prefer-default-export': 0,
+    'react/prop-types': 0,
+    'react/require-default-props': 0,
     'newline-before-return': 2,
     'react/function-component-definition': [
       2,

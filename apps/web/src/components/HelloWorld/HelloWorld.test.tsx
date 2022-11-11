@@ -6,6 +6,6 @@ import { HelloWorld } from './HelloWorld';
 describe('tests', () => {
   it('should', () => {
     render(<HelloWorld />);
-    expect(screen.getByText('Boop')).toBeInTheDocument();
+    expect(screen.getByText(/turborepo/i)).toBeInTheDocument();
   });
 });
