@@ -10,7 +10,7 @@ const Web = () => (
     </Head>
     <div>
       <div className="mx-auto mt-4 max-w-screen-lg">
-        <h1 className="text-6xl font-bold text-center">Turborepo</h1>
+        <h1 className="text-6xl font-bold text-center">Turborepo | nextjs</h1>
         <div className="mt-8 text-center">
           <p>
             Boilerplate and Starter for turborepo with Next.js, Tailwind CSS and TypeScript ⚡️ Made
