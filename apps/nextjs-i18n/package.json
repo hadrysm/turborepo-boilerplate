@@ -1,0 +1,33 @@
+{
+  "name": "nextjs-i18n",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3001",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest test",
+    "test:coverage": "jest --coverage",
+    "test:ci": "jest --ci",
+    "test:watch": "jest --watch",
+    "eslint:format": "eslint src --fix"
+  },
+  "dependencies": {
+    "next": "13.0.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "ui": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@types/node": "^18.11.9",
+    "@types/react": "18.0.25",
+    "eslint": "8.27.0",
+    "eslint-config-custom": "*",
+    "next-transpile-modules": "10.0.0",
+    "tailwind-config": "*",
+    "jest-config": "*",
+    "tsconfig": "*",
+    "typescript": "^4.5.3"
+  }
+}
