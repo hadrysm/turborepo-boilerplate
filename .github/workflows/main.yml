@@ -58,3 +58,17 @@ jobs:
         run: yarn build
         env:
           CI: true
+
+  storybook-build-check:
+    name: Build storybook application
+    needs: [jest-check]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: yarn install
+      - name: Build storybook
+        run: yarn storybook:build
+        env:
+          CI: true
