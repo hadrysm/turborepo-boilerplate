@@ -1,5 +1,5 @@
 module.exports = {
-  staticDirs: ['../../../apps/web/public'],
+  staticDirs: ['../../../apps/nextjs/public', '../../../apps/nextjs-i18n/public'],
   stories: ['../../ui/**/*.stories.@(ts|tsx)'],
   addons: [
     '@storybook/addon-links',

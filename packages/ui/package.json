@@ -28,7 +28,7 @@
     "autoprefixer": "10.4.13",
     "eslint": "8.27.0",
     "eslint-config-custom": "*",
-    "jest-config": "*",
+    "@had/jest-config": "*",
     "postcss": "8.4.19",
     "react": "^18.2.0",
     "storybook-addon-next-router": "4.0.1",

@@ -36,7 +36,8 @@ module.exports = {
     'react/react-in-jsx-scope': 0,
     'import/prefer-default-export': 0,
     'react/prop-types': 0,
-    'react/button-has-type': 1,
+    'react/button-has-type': 0,
+    'no-magic-numbers': 1,
     'react/require-default-props': 0,
     'newline-before-return': 2,
     'react/function-component-definition': [
@@ -51,7 +52,11 @@ module.exports = {
       2,
       {
         newlinesBetween: 'always',
-        groups: [['/^next/', 'module'], '/^@had/ui/', [('parent', 'sibling', 'index')]],
+        groups: [
+          ['/^next/', 'module'],
+          ['/^@had/jest-config/', '/^@had/ui/'],
+          [('parent', 'sibling', 'index')],
+        ],
         alphabetize: { order: 'asc', ignoreCase: true },
       },
     ],
