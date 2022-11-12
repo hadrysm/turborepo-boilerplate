@@ -14,7 +14,7 @@ module.exports = {
     'plugin:import/typescript',
     'prettier',
   ],
-  plugins: ['import', '@typescript-eslint'],
+  plugins: ['import', 'eslint-plugin-import-helpers', '@typescript-eslint'],
   settings: {
     next: {
       rootDir: ['apps/*/', 'packages/*/'],
@@ -46,6 +46,14 @@ module.exports = {
     ],
     'react/jsx-props-no-spreading': 0,
     '@next/next/no-html-link-for-pages': ['error', './src/pages/'],
+    'import-helpers/order-imports': [
+      2,
+      {
+        newlinesBetween: 'always',
+        groups: [['/^next/', 'module'], '/^@had/ui/', [('parent', 'sibling', 'index')]],
+        alphabetize: { order: 'asc', ignoreCase: true },
+      },
+    ],
   },
   overrides: [
     {

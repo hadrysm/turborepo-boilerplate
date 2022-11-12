@@ -1,4 +1,4 @@
-import { Button } from 'ui';
+import { Button } from '@had/ui';
 
 export const HelloWorld = () => (
   <div>

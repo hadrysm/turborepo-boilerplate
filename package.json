@@ -17,8 +17,8 @@
     "prettier:check": "prettier --check \"**/*.{ts,tsx,json}\"",
     "eslint:format": "turbo run eslint:format",
     "prepare": "husky install",
-    "storybook": "yarn workspace ui storybook",
-    "storybook:build": "yarn workspace ui storybook:build"
+    "storybook": "yarn workspace @had/ui storybook",
+    "storybook:build": "yarn workspace @had/ui storybook:build"
   },
   "devDependencies": {
     "eslint-config-custom": "*",
