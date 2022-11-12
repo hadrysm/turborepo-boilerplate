@@ -26,7 +26,7 @@
     "eslint-config-custom": "*",
     "next-transpile-modules": "10.0.0",
     "tailwind-config": "*",
-    "jest-config": "*",
+    "@had/jest-config": "*",
     "tsconfig": "*",
     "typescript": "^4.5.3"
   }

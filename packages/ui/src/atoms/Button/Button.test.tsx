@@ -1,4 +1,5 @@
-import { render, screen } from 'jest-config';
+import { render, screen } from '@had/jest-config';
+
 import { Button } from './Button';
 
 describe('Button', () => {

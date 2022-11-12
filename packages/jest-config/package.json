@@ -1,11 +1,12 @@
 {
-  "name": "jest-config",
+  "name": "@had/jest-config",
   "version": "0.0.0",
   "main": "./index.ts",
   "types": "./index.ts",
   "license": "MIT",
   "files": [
-    "jest-next.js"
+    "jest-next.js",
+    "test-utils.tsx"
   ],
   "publishConfig": {
     "access": "public"
