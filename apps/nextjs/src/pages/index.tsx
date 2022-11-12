@@ -1,5 +1,6 @@
 import Head from 'next/head';
-import { Button } from 'ui';
+
+import { Button } from '@had/ui';
 
 const Web = () => (
   <div>

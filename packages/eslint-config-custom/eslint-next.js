@@ -14,7 +14,7 @@ module.exports = {
     'plugin:import/typescript',
     'prettier',
   ],
-  plugins: ['import', '@typescript-eslint'],
+  plugins: ['import', 'eslint-plugin-import-helpers', '@typescript-eslint'],
   settings: {
     next: {
       rootDir: ['apps/*/', 'packages/*/'],
@@ -36,6 +36,7 @@ module.exports = {
     'react/react-in-jsx-scope': 0,
     'import/prefer-default-export': 0,
     'react/prop-types': 0,
+    'react/button-has-type': 1,
     'react/require-default-props': 0,
     'newline-before-return': 2,
     'react/function-component-definition': [
@@ -46,6 +47,14 @@ module.exports = {
     ],
     'react/jsx-props-no-spreading': 0,
     '@next/next/no-html-link-for-pages': ['error', './src/pages/'],
+    'import-helpers/order-imports': [
+      2,
+      {
+        newlinesBetween: 'always',
+        groups: [['/^next/', 'module'], '/^@had/ui/', [('parent', 'sibling', 'index')]],
+        alphabetize: { order: 'asc', ignoreCase: true },
+      },
+    ],
   },
   overrides: [
     {
