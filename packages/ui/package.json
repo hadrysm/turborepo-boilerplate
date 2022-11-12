@@ -5,7 +5,7 @@
   "types": "./index.tsx",
   "license": "MIT",
   "scripts": {
-    "eslint:format": "eslint . --ext ts --ext tsx --ext js",
+    "eslint:format": "eslint src --fix",
     "test": "jest test",
     "test:coverage": "jest --coverage",
     "test:ci": "jest --ci",

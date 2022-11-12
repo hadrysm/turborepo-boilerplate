@@ -10,7 +10,7 @@
     "test:coverage": "jest --coverage",
     "test:ci": "jest --ci",
     "test:watch": "jest --watch",
-    "eslint:format": "eslint . --ext ts --ext tsx --ext js"
+    "eslint:format": "eslint src --fix"
   },
   "dependencies": {
     "next": "13.0.2",
