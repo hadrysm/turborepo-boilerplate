@@ -7915,18 +7915,18 @@ jest-each@^29.3.1:
     jest-util "^29.3.1"
     pretty-format "^29.3.1"
 
-jest-environment-jsdom@29.3.0:
-  version "29.3.0"
-  resolved "https://registry.yarnpkg.com/jest-environment-jsdom/-/jest-environment-jsdom-29.3.0.tgz#378d750e3c6894efa543ba8f7261c0a3d892d42e"
-  integrity sha512-xFLbMR4OF4lntNcO9LthJdPRbI9WgfFlG73aQS6wQ54+v4oSAp8T4FKUw0add+Z+Ghu/dirRxuvc4FzzN5kRxw==
+jest-environment-jsdom@29.3.1:
+  version "29.3.1"
+  resolved "https://registry.yarnpkg.com/jest-environment-jsdom/-/jest-environment-jsdom-29.3.1.tgz#14ca63c3e0ef5c63c5bcb46033e50bc649e3b639"
+  integrity sha512-G46nKgiez2Gy4zvYNhayfMEAFlVHhWfncqvqS6yCd0i+a4NsSUD2WtrKSaYQrYiLQaupHXxCRi8xxVL2M9PbhA==
   dependencies:
-    "@jest/environment" "^29.3.0"
-    "@jest/fake-timers" "^29.3.0"
-    "@jest/types" "^29.2.1"
+    "@jest/environment" "^29.3.1"
+    "@jest/fake-timers" "^29.3.1"
+    "@jest/types" "^29.3.1"
     "@types/jsdom" "^20.0.0"
     "@types/node" "*"
-    jest-mock "^29.3.0"
-    jest-util "^29.2.1"
+    jest-mock "^29.3.1"
+    jest-util "^29.3.1"
     jsdom "^20.0.0"
 
 jest-environment-node@^29.3.1:
@@ -8003,6 +8003,21 @@ jest-matcher-utils@^29.3.1:
     jest-diff "^29.3.1"
     jest-get-type "^29.2.0"
     pretty-format "^29.3.1"
+
+jest-message-util@^29.3.1:
+  version "29.3.1"
+  resolved "https://registry.yarnpkg.com/jest-message-util/-/jest-message-util-29.3.1.tgz#37bc5c468dfe5120712053dd03faf0f053bd6adb"
+  integrity sha512-lMJTbgNcDm5z+6KDxWtqOFWlGQxD6XaYwBqHR8kmpkP+WWWG90I35kdtQHY67Ay5CSuydkTBbJG+tH9JShFCyA==
+  dependencies:
+    "@babel/code-frame" "^7.12.13"
+    "@jest/types" "^29.3.1"
+    "@types/stack-utils" "^2.0.0"
+    chalk "^4.0.0"
+    graceful-fs "^4.2.9"
+    micromatch "^4.0.4"
+    pretty-format "^29.3.1"
+    slash "^3.0.0"
+    stack-utils "^2.0.3"
 
 jest-message-util@^29.3.1:
   version "29.3.1"
@@ -9986,6 +10001,15 @@ pretty-format@^27.0.2:
     react-is "^17.0.1"
 
 pretty-format@^29.0.0, pretty-format@^29.3.1:
+  version "29.3.1"
+  resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-29.3.1.tgz#1841cac822b02b4da8971dacb03e8a871b4722da"
+  integrity sha512-FyLnmb1cYJV8biEIiRyzRFvs2lry7PPIvOqKVe1GCUEYg4YGmlx1qG9EJNMxArYm7piII4qb8UV1Pncq5dxmcg==
+  dependencies:
+    "@jest/schemas" "^29.0.0"
+    ansi-styles "^5.0.0"
+    react-is "^18.0.0"
+
+pretty-format@^29.3.1:
   version "29.3.1"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-29.3.1.tgz#1841cac822b02b4da8971dacb03e8a871b4722da"
   integrity sha512-FyLnmb1cYJV8biEIiRyzRFvs2lry7PPIvOqKVe1GCUEYg4YGmlx1qG9EJNMxArYm7piII4qb8UV1Pncq5dxmcg==
