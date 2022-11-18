@@ -13,20 +13,20 @@
     "eslint:format": "eslint src --fix"
   },
   "dependencies": {
-    "next": "13.0.3",
+    "@had/ui": "*",
+    "next": "12.3.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "@had/ui": "*"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.2",
+    "@had/jest-config": "*",
     "@types/node": "^18.11.9",
     "@types/react": "18.0.25",
     "eslint": "8.27.0",
     "eslint-config-custom": "*",
     "next-transpile-modules": "10.0.0",
     "tailwind-config": "*",
-    "@had/jest-config": "*",
     "tsconfig": "*",
     "typescript": "^4.9.3"
   }
