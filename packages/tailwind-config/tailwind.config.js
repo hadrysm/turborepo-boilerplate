@@ -6,6 +6,10 @@ module.exports = {
       colors: {
         primary: '#FFB040',
       },
+      gridTemplateColumns: {
+        'responsive-fit': 'repeat(auto-fit, minmax(200px, 1fr))',
+        'responsive-fill': 'repeat(auto-fill, minmax(200px, 1fr))',
+      },
     },
   },
   variants: {
