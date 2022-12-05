@@ -19,7 +19,7 @@
     "@had/ui": "*"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.2",
+    "@babel/core": "^7.20.5",
     "@types/node": "^18.11.9",
     "@types/react": "18.0.25",
     "eslint": "8.29.0",
