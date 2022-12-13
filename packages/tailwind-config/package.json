@@ -5,7 +5,8 @@
   "files": [
     "postcss.config.js",
     "tailwind.config.js",
-    "global.css"
+    "global.css",
+    "global.output.css"
   ],
   "dependencies": {},
   "devDependencies": {
