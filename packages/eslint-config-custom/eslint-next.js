@@ -35,6 +35,7 @@ module.exports = {
     'no-console': 2,
     'react/react-in-jsx-scope': 0,
     'import/prefer-default-export': 0,
+    'import/no-extraneous-dependencies': 1,
     'react/prop-types': 0,
     'react/button-has-type': 0,
     'no-magic-numbers': 1,

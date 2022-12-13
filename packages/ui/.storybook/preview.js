@@ -1,5 +1,6 @@
 import { RouterContext } from 'next/dist/shared/lib/router-context';
-import '../../../apps/nextjs/src/styles/global.css';
+
+import 'tailwind-config/global.css';
 
 export const parameters = {
   nextRouter: {
