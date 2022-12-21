@@ -16,7 +16,7 @@
   "devDependencies": {
     "@had/jest-config": "*",
     "@storybook/addon-a11y": "6.5.15",
-    "@storybook/addon-actions": "6.5.14",
+    "@storybook/addon-actions": "6.5.15",
     "@storybook/addon-essentials": "6.5.15",
     "@storybook/addon-interactions": "6.5.14",
     "@storybook/addon-links": "6.5.15",
