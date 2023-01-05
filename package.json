@@ -23,7 +23,7 @@
   "dependencies": {},
   "devDependencies": {
     "eslint-config-custom": "*",
-    "husky": "8.0.2",
+    "husky": "8.0.3",
     "lint-staged": "13.1.0",
     "prettier": "latest",
     "tailwind-config": "*",
