@@ -7,9 +7,7 @@ type ProvidersProps = {
 
 // Add in any providers here if necessary:
 // (ReduxProvider, ThemeProvider, etc)
-const Providers = ({ children }: ProvidersProps) => {
-  return children;
-};
+const Providers = ({ children }: ProvidersProps) => children;
 
 const customRender = (ui: ReactElement, options?: Omit<RenderOptions, 'wrapper'>) =>
   render(ui, { wrapper: Providers, ...options });

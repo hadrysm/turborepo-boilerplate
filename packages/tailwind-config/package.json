@@ -7,8 +7,9 @@
     "tailwind.config.js",
     "global.css"
   ],
-  "dependencies": {},
   "devDependencies": {
+    "tsconfig": "*",
+    "eslint-config-custom": "*",
     "@tailwindcss/typography": "0.5.9",
     "autoprefixer": "10.4.13",
     "postcss": "8.4.20",

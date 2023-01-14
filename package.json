@@ -20,14 +20,12 @@
     "storybook": "yarn workspace @had/ui storybook",
     "storybook:build": "yarn workspace @had/ui storybook:build"
   },
-  "dependencies": {},
   "devDependencies": {
     "eslint-config-custom": "*",
+    "tsconfig": "*",
     "husky": "8.0.3",
     "lint-staged": "13.1.0",
     "prettier": "latest",
-    "tailwind-config": "*",
-    "@had/jest-config": "*",
     "turbo": "1.7.0"
   },
   "engines": {
