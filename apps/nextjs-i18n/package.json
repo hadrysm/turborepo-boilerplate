@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@had/ui": "*",
-    "next": "13.1.4"
+    "next": "13.1.5"
   },
   "devDependencies": {
     "tailwind-config": "*",
