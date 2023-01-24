@@ -17,12 +17,11 @@
     "next": "13.1.5"
   },
   "devDependencies": {
-    "tailwind-config": "*",
-    "@had/jest-config": "*",
-    "eslint-config-custom": "*",
-    "tsconfig": "*",
     "@babel/core": "^7.20.12",
+    "@had/jest-config": "*",
     "@types/node": "^18.11.18",
-    "next-transpile-modules": "10.0.0"
+    "eslint-config-custom": "*",
+    "tailwind-config": "*",
+    "tsconfig": "*"
   }
 }

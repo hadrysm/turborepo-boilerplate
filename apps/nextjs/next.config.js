@@ -1,5 +1,4 @@
-const withTM = require('next-transpile-modules')(['@had/ui']);
-
-module.exports = withTM({
+module.exports = {
+  transpilePackages: ['@had/ui'],
   reactStrictMode: true,
-});
+};
