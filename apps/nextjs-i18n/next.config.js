@@ -1,9 +1,8 @@
-const withTM = require('next-transpile-modules')(['@had/ui']);
-
-module.exports = withTM({
+module.exports = {
   reactStrictMode: true,
+  transpilePackages: ['@had/ui'],
   i18n: {
     locales: ['en', 'pl'],
     defaultLocale: 'pl',
   },
-});
+};
