@@ -1625,10 +1625,10 @@
   resolved "https://registry.yarnpkg.com/@next/env/-/env-13.1.5.tgz#72b24d3726a6b752be6b7b9a937f7af31b3ce410"
   integrity sha512-0Ry4NhJy6qLbXhvxPRUQ1H6RzgtryGdUto7hfgAK0Iw/bScgeVjwLZdfhm2iT7qsOS32apo9cWzLCxjc6iGPsA==
 
-"@next/eslint-plugin-next@13.1.5":
-  version "13.1.5"
-  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-13.1.5.tgz#3eebea0835d2ec549a7b4b8976bf1d7796cca632"
-  integrity sha512-3kvLTX35bOWOCKU8KY74Ygczc55Qk/kB2TQy0tH7Rti6hzZ6Aij7WQ8zHdIVjmnlD0n/zXWXrIf5y56RKcLQkQ==
+"@next/eslint-plugin-next@13.1.6":
+  version "13.1.6"
+  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-13.1.6.tgz#ad8be22dd3d8aee9a9bd9a2507e2c55a2f7ebdd9"
+  integrity sha512-o7cauUYsXjzSJkay8wKjpKJf2uLzlggCsGUkPu3lP09Pv97jYlekTC20KJrjQKmSv5DXV0R/uks2ZXhqjNkqAw==
   dependencies:
     glob "7.1.7"
 
@@ -2235,19 +2235,6 @@
     webpack-hot-middleware "^2.25.1"
     webpack-virtual-modules "^0.4.1"
 
-"@storybook/channel-postmessage@6.5.15":
-  version "6.5.15"
-  resolved "https://registry.yarnpkg.com/@storybook/channel-postmessage/-/channel-postmessage-6.5.15.tgz#a9d614be56bededf7cec41b833c46d35958b6d2b"
-  integrity sha512-gMpA8LWT8lC4z5KWnaMh03aazEwtDO7GtY5kZVru+EEMgExGmaR82qgekwmLmgLj2nRJEv0o138o9IqYUcou8w==
-  dependencies:
-    "@storybook/channels" "6.5.15"
-    "@storybook/client-logger" "6.5.15"
-    "@storybook/core-events" "6.5.15"
-    core-js "^3.8.2"
-    global "^4.4.0"
-    qs "^6.10.0"
-    telejson "^6.0.8"
-
 "@storybook/channel-postmessage@6.5.16":
   version "6.5.16"
   resolved "https://registry.yarnpkg.com/@storybook/channel-postmessage/-/channel-postmessage-6.5.16.tgz#06167c0a66c06b2b5f8ff01d1dd436fff8119a15"
@@ -2598,19 +2585,6 @@
   dependencies:
     lodash "^4.17.15"
 
-"@storybook/docs-tools@6.5.15":
-  version "6.5.15"
-  resolved "https://registry.yarnpkg.com/@storybook/docs-tools/-/docs-tools-6.5.15.tgz#c9a3954719c45c3748abd6aaa735e33f5c961912"
-  integrity sha512-8w78NFOtlJGuIa9vPPsr87J9iQUGmLFh7CrMS2+t9LxW+0oH5MZ8QqPQUHNuTuKsYN3r+QAmmi2pj0auZmCoKA==
-  dependencies:
-    "@babel/core" "^7.12.10"
-    "@storybook/csf" "0.0.2--canary.4566f4d.1"
-    "@storybook/store" "6.5.15"
-    core-js "^3.8.2"
-    doctrine "^3.0.0"
-    lodash "^4.17.21"
-    regenerator-runtime "^0.13.7"
-
 "@storybook/docs-tools@6.5.16":
   version "6.5.16"
   resolved "https://registry.yarnpkg.com/@storybook/docs-tools/-/docs-tools-6.5.16.tgz#1ec5433eeab63a214d37ffc4660cdaec9704ac39"
@@ -2722,28 +2696,6 @@
   dependencies:
     core-js "^3.8.2"
 
-"@storybook/preview-web@6.5.15":
-  version "6.5.15"
-  resolved "https://registry.yarnpkg.com/@storybook/preview-web/-/preview-web-6.5.15.tgz#5f47899dff1580ed3dc1b5a7bfdf67d6574536fc"
-  integrity sha512-gIHABSAD0JS0iRaG67BnSDq/q8Zf4fFwEWBQOSYgcEx2TzhAUeSkhGZUQHdlOTCwuA2PpXT0/cWDH8u2Ev+msg==
-  dependencies:
-    "@storybook/addons" "6.5.15"
-    "@storybook/channel-postmessage" "6.5.15"
-    "@storybook/client-logger" "6.5.15"
-    "@storybook/core-events" "6.5.15"
-    "@storybook/csf" "0.0.2--canary.4566f4d.1"
-    "@storybook/store" "6.5.15"
-    ansi-to-html "^0.6.11"
-    core-js "^3.8.2"
-    global "^4.4.0"
-    lodash "^4.17.21"
-    qs "^6.10.0"
-    regenerator-runtime "^0.13.7"
-    synchronous-promise "^2.0.15"
-    ts-dedent "^2.0.0"
-    unfetch "^4.2.0"
-    util-deprecate "^1.0.2"
-
 "@storybook/preview-web@6.5.16":
   version "6.5.16"
   resolved "https://registry.yarnpkg.com/@storybook/preview-web/-/preview-web-6.5.16.tgz#1d32a72be25776f9597e33ffc1914f3430fae689"
@@ -2850,22 +2802,6 @@
     core-js "^3.6.5"
     find-up "^4.1.0"
 
-"@storybook/source-loader@6.5.15":
-  version "6.5.15"
-  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-6.5.15.tgz#363a9b2812a2cef6cc5cb948e55d8a2624e18643"
-  integrity sha512-MaWzki40g0/7NWmJgUBhOp+e7y8Ohw6G/bRr/rcDP7eXSnud6ThYylXv0QqBScLPPTy8txjmBClCoqdLGyvLWQ==
-  dependencies:
-    "@storybook/addons" "6.5.15"
-    "@storybook/client-logger" "6.5.15"
-    "@storybook/csf" "0.0.2--canary.4566f4d.1"
-    core-js "^3.8.2"
-    estraverse "^5.2.0"
-    global "^4.4.0"
-    loader-utils "^2.0.4"
-    lodash "^4.17.21"
-    prettier ">=2.2.1 <=2.3.0"
-    regenerator-runtime "^0.13.7"
-
 "@storybook/source-loader@6.5.16":
   version "6.5.16"
   resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-6.5.16.tgz#b691a024e6ff36bbd1144ecb4a65986f0e149741"
@@ -2881,27 +2817,6 @@
     lodash "^4.17.21"
     prettier ">=2.2.1 <=2.3.0"
     regenerator-runtime "^0.13.7"
-
-"@storybook/store@6.5.15":
-  version "6.5.15"
-  resolved "https://registry.yarnpkg.com/@storybook/store/-/store-6.5.15.tgz#d6ca7a3165442aabfde335f243bdd179d53bca1a"
-  integrity sha512-r6cYTf6GtbqgdI4ZG3xuWdJAAu5fJ3xAWMiDkHyoK2u+R2TeYXIsJvgn0BPrW87sZhELIkg4ckdFECmATs3kpQ==
-  dependencies:
-    "@storybook/addons" "6.5.15"
-    "@storybook/client-logger" "6.5.15"
-    "@storybook/core-events" "6.5.15"
-    "@storybook/csf" "0.0.2--canary.4566f4d.1"
-    core-js "^3.8.2"
-    fast-deep-equal "^3.1.3"
-    global "^4.4.0"
-    lodash "^4.17.21"
-    memoizerific "^1.11.3"
-    regenerator-runtime "^0.13.7"
-    slash "^3.0.0"
-    stable "^0.1.8"
-    synchronous-promise "^2.0.15"
-    ts-dedent "^2.0.0"
-    util-deprecate "^1.0.2"
 
 "@storybook/store@6.5.16":
   version "6.5.16"
@@ -6104,12 +6019,12 @@ eslint-config-airbnb@19.0.4:
     object.assign "^4.1.2"
     object.entries "^1.1.5"
 
-eslint-config-next@13.1.5:
-  version "13.1.5"
-  resolved "https://registry.yarnpkg.com/eslint-config-next/-/eslint-config-next-13.1.5.tgz#38daeaa1463197ef5b6cec9136ce6838ea776cf3"
-  integrity sha512-7FqkjkvGCQfvYUiPTFRiRYPR1uI6Ew+4f4mVp16lLSWcaChtWoZxQCZHM5n0yxzKKVmuEg1aM4uvDQfSXSjTww==
+eslint-config-next@13.1.6:
+  version "13.1.6"
+  resolved "https://registry.yarnpkg.com/eslint-config-next/-/eslint-config-next-13.1.6.tgz#ab6894fe5b80080f1e9b9306d1c4b0003230620e"
+  integrity sha512-0cg7h5wztg/SoLAlxljZ0ZPUQ7i6QKqRiP4M2+MgTZtxWwNKb2JSwNc18nJ6/kXBI6xYvPraTbQSIhAuVw6czw==
   dependencies:
-    "@next/eslint-plugin-next" "13.1.5"
+    "@next/eslint-plugin-next" "13.1.6"
     "@rushstack/eslint-patch" "^1.1.3"
     "@typescript-eslint/parser" "^5.42.0"
     eslint-import-resolver-node "^0.3.6"
