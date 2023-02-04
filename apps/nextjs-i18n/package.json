@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@had/ui": "*",
-    "next": "13.1.5"
+    "next": "13.1.6"
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",
