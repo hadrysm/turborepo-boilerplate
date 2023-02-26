@@ -19,7 +19,7 @@
   "devDependencies": {
     "@babel/core": "^7.21.0",
     "@had/jest-config": "*",
-    "@types/node": "^18.14.0",
+    "@types/node": "^18.14.1",
     "eslint-config-custom": "*",
     "tailwind-config": "*",
     "tsconfig": "*"
