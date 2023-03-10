@@ -24,7 +24,7 @@
     "eslint-config-custom": "*",
     "tsconfig": "*",
     "husky": "8.0.3",
-    "lint-staged": "13.1.2",
+    "lint-staged": "13.2.0",
     "prettier": "latest",
     "turbo": "1.8.3"
   },
